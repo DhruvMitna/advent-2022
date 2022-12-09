@@ -21,6 +21,8 @@ Input.close()
 elfCalories = [sum(elf) for elf in elves]
 top = []
 
+print(max(elfCalories))
+
 for _ in range(3):
 
     top.append(max(elfCalories))
