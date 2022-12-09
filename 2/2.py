@@ -90,4 +90,6 @@ for line in lines:
 
         newScore += 7
 
+Input.close()
+
 print(newScore)
