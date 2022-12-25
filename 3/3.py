@@ -92,3 +92,4 @@ for Group in groups:
     Priority += priorities[list(set(Group[0]).intersection(set(Group[1])).intersection(set(Group[2])))[0]]
 
 print(Priority)
+Input.close()
